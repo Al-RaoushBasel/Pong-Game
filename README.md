@@ -1,6 +1,6 @@
 # 🏓 Pong Game
 
-![Pong Game Banner](https://giphy.com/clips/scgallery-computer-electronics-arcade-game-OkVwK9fHLcmkHysMYC)
+![Pong GIF](https://media.giphy.com/media/OkVwK9fHLcmkHysMYC/giphy.gif)
 
 **Relive the Retro Arcade Experience with Python**
 
