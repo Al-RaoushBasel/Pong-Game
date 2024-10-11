@@ -20,7 +20,7 @@ Step back in time to the golden age of arcade games with this minimalist version
 
 - **Objective**: Score points by getting the ball past your opponent's (or AI's) paddle.
 - **Modes**:
-  - **Single-Player Mode**: Play against the AI, which automatically moves the left paddle.
+  - **Single-Player Mode**: Play against the AI, which automatically moves the paddle.
   - **Two-Player Mode**: Challenge a friend and take control of both paddles.
   
 - **Controls**:
