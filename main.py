@@ -33,10 +33,9 @@ while game_is_on:
     if ball.ycor() > 280 or ball.ycor() < -280:
         ball.bounce_y()
 
-    # Detect collision with right paddle (r_paddle)
+    # Detect collision with paddles
     if ball.distance(r_paddle) < 50 and ball.xcor() > 320:
         ball.bounce_x(r_paddle)
-    # Detect collision with left paddle (l_paddle)
     elif ball.distance(l_paddle) < 50 and ball.xcor() < -330:
         ball.bounce_x(l_paddle)
 
@@ -49,6 +48,11 @@ while game_is_on:
     if ball.xcor() < -380:
         ball.reset()
         score.r_point()
+
+    # Check for game over condition
+    if score.check_winner():
+        game_is_on = False
+
 
 
 screen.exitonclick()
