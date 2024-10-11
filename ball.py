@@ -1,6 +1,5 @@
 from turtle import Turtle
 
-
 class Ball(Turtle):
 
     def __init__(self):
@@ -17,10 +16,14 @@ class Ball(Turtle):
         new_y = self.ycor() + self.y_move
         self.goto(new_x, new_y)
 
+    # Method for bouncing off top and bottom walls (vertical direction)
     def bounce_y(self):
-        self.y_move *= -1
+        self.y_move *= -1  # Reverse the Y direction
 
-    def bounce_x(self):
+    # Method for bouncing off paddles (horizontal direction)
+    def bounce_x(self, paddle):
+        difference = self.ycor() - paddle.ycor()
+        self.y_move = difference / 10  # Adjust the ball's angle based on hit position
         self.x_move *= -1
         self.move_speed *= 0.9
 
@@ -28,7 +31,3 @@ class Ball(Turtle):
         self.goto(0, 0)
         self.move_speed = 0.06
         self.x_move *= -1
-
-
-
-
