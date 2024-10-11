@@ -1,7 +1,5 @@
 # 🏓 Pong Game
 
-![Pong GIF](https://media.giphy.com/media/OkVwK9fHLcmkHysMYC/giphy.gif)
-
 **Relive the Retro Arcade Experience with Python**
 
 Step back in time to the golden age of arcade games with this minimalist version of Pong. Built using Python and the Pygame library, this game brings fast-paced action to your screen. Simple to play, tough to master—challenge your friends or take on the AI to see who rules the paddle!
