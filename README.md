@@ -38,4 +38,4 @@ Step back in time to the golden age of arcade games with this minimalist version
    ```bash
    git clone https://github.com/your-username/pong-game.git
 
-2. navigate to the main.py file to run the game
+2. **Navigate to the main.py file to run the game**
